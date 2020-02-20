@@ -12,7 +12,7 @@ $txt = "Client budget: " . $budget . "\n\n"  . $message . "\n\n" . "Regards,\n\n
 
 // If all values exist, send the email
 if ( $senderName && $senderEmail && $message ) {
-  $mailTo = "hello@pixerex.com"; // change it to your host mail for example (contact@yourdomain.com).
+  $mailTo = "kieran@personalbrandmgmt.com"; // change it to your host mail for example (contact@yourdomain.com).
   $headers = "From: " . $senderEmail;
   $success = mail( $mailTo, $subject, $txt, $headers );
   $successTxt = "<p class='uk-alert uk-alert-success uk-margin-large-bottom success' data-uk-alert=''>Thanks for contacting us. We will contact you ASAP!</p>";
