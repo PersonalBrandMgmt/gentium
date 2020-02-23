@@ -1,0 +1,6 @@
+{
+  "baseURL": "https://develop.d2pru1nc16cre5.amplifyapp.com/",
+  "languageCode": "en-us",
+  "title": "No Look Ventures",
+  "disableKinds": ["taxonomy", "taxonomyTerm"]
+}
