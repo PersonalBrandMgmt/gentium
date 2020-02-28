@@ -15,8 +15,8 @@
       <div class="section-outer uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal">
         <div class="uk-flex uk-flex-around uk-flex-middle uk-grid uk-grid-large" data-uk-grid="">
           {{ range where .Site.Pages "Params.series" "portfolio" }}
-          <a href="{{ .URL }}">
-            <div class="inner"><img src="{{ .Params.image }}" alt="Mission" height="200"
+          <a href="{{ .Params.articleUrl }}">
+            <div class="inner"><img src="{{ .Params.image }}" alt="NLP Ventures" height="200"
                                     width="200"></div>
           </a>
           {{ end }}
