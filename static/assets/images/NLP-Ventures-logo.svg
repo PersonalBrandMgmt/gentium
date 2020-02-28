@@ -2,10 +2,13 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="420px" height="156px" viewBox="0 0 1746.000000 524.000000"
+ width="170px" height="32px" viewBox="100 350 1600 1"
  preserveAspectRatio="xMidYMid meet">
-<g transform="translate(0.000000,524.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
+<title>Logo</title>
+<desc>Created with Sketch.</desc>
+<!--<g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">-->
+<g transform="translate(0.000000,490.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none" stroke-width="1" fill-rule="evenodd">
 <path d="M1257 2733 c3 -10 15 -30 25 -45 10 -14 18 -28 18 -31 0 -3 25 -49
 55 -102 30 -54 55 -101 55 -105 0 -5 4 -10 8 -12 5 -1 26 -34 47 -73 21 -38
 51 -89 67 -112 15 -23 28 -46 28 -52 0 -6 3 -11 8 -11 8 0 24 24 62 95 15 28
