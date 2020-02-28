@@ -173,12 +173,12 @@ strong {
     -ms-flex-align: center;
     align-items: center; }
     .pr__header .inner .logo {
-      width: 150px; }
+      width: 300px; }
       .pr__header .inner .logo .brand {
         display: inline-block;
-        width: 100%;
+        width: 92%;
         height: 28px;
-        background-image: url('./assets/images/NLP-Ventures-logo.png');
+        background-image: url('./assets/images/nlp-ventures.png');
         background-size: cover;
         background-repeat: no-repeat; }
     .pr__header .inner .navbar {
