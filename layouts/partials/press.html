@@ -103,15 +103,19 @@
       </div>
     </div>
     <div class="uk-container">
+      <hr class="pr__hr__section">
       <div class="section-outer uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal">
         <div class="uk-flex uk-flex-around uk-flex-middle uk-grid uk-grid-large" data-uk-grid="">
           {{ range where .Site.Pages "Params.series" "press" }}
           <a href="{{ .Params.articleUrl }}" target="_blank">
             <div class="inner"><img src="{{ .Params.image }}" alt="NLP Ventures" height="200"
-                                    width="200"></div>
+                                    width="125"></div>
           </a>
           {{ end }}
         </div><!-- Grid End -->
+      </div>
+      <div class="section-outer uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal">
+        <hr class="pr__hr__section">
       </div>
     </div>
   </div>
