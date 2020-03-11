@@ -1648,10 +1648,10 @@ body.single-post .hero-content {
 /* Images */
 .pr__image__cover {
   background-color: #F3F3F3;
-  background-size: cover;
+  background-size: contain;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  padding-top: 66.6666667%;
+  padding-top: 100%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   -webkit-transition: -webkit-filter .2s ease;
