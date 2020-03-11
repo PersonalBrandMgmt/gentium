@@ -167,9 +167,9 @@
 
 /* Images */
 .pr__image__cover {
-    background-color: $light;
-    background-size: cover;
-    background-position: 50% 50%;
+    background-color: #F3F3F3;
+    background-size: contain;
+    background-position: 75% 25%;
     background-repeat: no-repeat;
     padding-top: 66.6666667%;
     filter: grayscale(100%);

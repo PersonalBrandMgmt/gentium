@@ -1649,7 +1649,7 @@ body.single-post .hero-content {
 .pr__image__cover {
   background-color: #F3F3F3;
   background-size: contain;
-  background-position: 50% 50%;
+  background-position: 75% 25%;
   background-repeat: no-repeat;
   padding-top: 100%;
   -webkit-filter: grayscale(100%);
