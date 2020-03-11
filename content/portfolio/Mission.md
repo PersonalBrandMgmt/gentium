@@ -2,7 +2,7 @@
 title: "Mission"
 date: 2020-02-23T14:33:35-05:00
 draft: false
-image: "assets/images/logos/missionathletecare.png"
+image: "assets/images/logos/mission.png"
 series: "portfolio"
 articleUrl: "https://www.mission.com/"
 ---
