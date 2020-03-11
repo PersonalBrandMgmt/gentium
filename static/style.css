@@ -177,9 +177,9 @@ strong {
       width: 90px; }
       .pr__header .inner .logo .brand {
         display: inline-block;
-        width: 100%;
-        height: 28px;
-        background-image: url('./assets/images/Logo.svg');
+        width: 125%;
+        height: 35px;
+        background-image: url('./assets/images/nlp-black.png');
         background-size: cover;
         background-repeat: no-repeat; }
     .pr__header .inner .navbar {

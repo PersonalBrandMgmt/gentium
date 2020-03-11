@@ -1,5 +1,5 @@
 ---
-title: "About NLP"
+title: "No-Look Pass Ventures"
 date: 2020-02-23T14:33:35-05:00
 draft: false
 image: "assets/images/logos/adage.png"

@@ -1,3 +1,36 @@
+<section class="pr__services pr__section uk-section uk-section-small" id="pr__press">
+  <div class="section-outer">
+    <div class="section-heading">
+      <div class="uk-container">
+        <div class="inner">
+          <div class="left">
+            <hr class="line pr__hr__secondary">
+            <h2 class="title uk-h1">Press.</h2>
+            <span class="subtitle pr__heading__secondary">Full court</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="uk-container">
+      <hr class="pr__hr__section">
+      <div class="section-outer uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal">
+        <div class="uk-flex uk-flex-around uk-flex-middle uk-grid uk-grid-large" data-uk-grid="">
+          {{ range where .Site.Pages "Params.series" "press" }}
+          <a href="{{ .Params.articleUrl }}" target="_blank">
+            <div class="inner"><img src="{{ .Params.image }}" alt="NLP Ventures" height="200"
+                                    width="125"></div>
+          </a>
+          {{ end }}
+        </div><!-- Grid End -->
+      </div>
+      <div class="section-outer uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal">
+        <hr class="pr__hr__section">
+      </div>
+    </div>
+  </div>
+</section><!-- Section: Portfolio End -->
+<!--<hr class="pr__vr__section">-->
+
 <!--<hr class="pr__vr__section">-->
 <!--<section class="pr__blog pr__section section-slider uk-section uk-section-large" id="pr__blog">-->
 <!--  <div class="section-outer">-->
@@ -88,37 +121,3 @@
 <!--    </div>&lt;!&ndash; Inner End &ndash;&gt;-->
 <!--  </div>&lt;!&ndash; Outer End &ndash;&gt;-->
 <!--</section>&lt;!&ndash; Section: Blog End &ndash;&gt;-->
-
-<section class="pr__services pr__section uk-section uk-section-large" id="pr__press">
-  <div class="section-outer">
-    <div class="section-heading">
-      <div class="uk-container">
-        <div class="inner">
-          <div class="left">
-            <hr class="line pr__hr__secondary">
-            <h2 class="title uk-h1">Press.</h2>
-            <span class="subtitle pr__heading__secondary">Full court</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="uk-container">
-      <hr class="pr__hr__section">
-      <div class="section-outer uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal">
-        <div class="uk-flex uk-flex-around uk-flex-middle uk-grid uk-grid-large" data-uk-grid="">
-          {{ range where .Site.Pages "Params.series" "press" }}
-          <a href="{{ .Params.articleUrl }}" target="_blank">
-            <div class="inner"><img src="{{ .Params.image }}" alt="NLP Ventures" height="200"
-                                    width="125"></div>
-          </a>
-          {{ end }}
-        </div><!-- Grid End -->
-      </div>
-      <div class="section-outer uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal">
-        <hr class="pr__hr__section">
-      </div>
-    </div>
-  </div>
-</section><!-- Section: Portfolio End -->
-<hr class="pr__vr__section">
-
