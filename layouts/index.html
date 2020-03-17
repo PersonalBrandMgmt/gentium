@@ -20,9 +20,9 @@
       <ul data-uk-scrollspy="target: > li; cls:uk-animation-slide-right; delay: 100; repeat: true;">
         <li><a href="#pr__hero">Home</a></li>
         <li><a href="#pr__services">Portfolio</a></li>
-        <li><a href="#pr__about">Team</a></li>
+        <li><a href="#pr__about">About</a></li>
         <li><a href="#pr__blog">Press</a></li>
-        <li><a href="#pr__contact">Contact</a></li>
+        <li><a href="#site-footer">Contact</a></li>
       </ul>
     </nav>
 
@@ -44,9 +44,9 @@
               <ul>
                 <li><a href="#pr__hero">Home</a></li>
                 <li><a href="#pr__services">Portfolio</a></li>
-                <li><a href="#pr__about">Team</a></li>
+                <li><a href="#pr__about">About</a></li>
                 <li><a href="#pr__press">Press</a></li>
-                <li><a href="#pr__contact">Contact</a></li>
+                <li><a href="#site-footer">Contact</a></li>
               </ul>
             </nav>
           </div>
@@ -66,295 +66,28 @@
             <div class="uk-width-2-3@s">
               <hr class="line pr__hr__primary">
               <h2 class="title uk-heading-hero">Seeing things before others.</h2>
-              {{ range where .Site.Pages "Params.series" "about" }}
-                <a class="button uk-button uk-button-large uk-button-default uk-margin-top" href="{{ .URL }}">Learn More</a>
-              {{ end }}
+<!--              {{ range where .Site.Pages "Params.series" "about" }}-->
+              <div data-uk-scrollspy-nav="offset: 0; closest: li; scroll: true">
+                <a class="button uk-button uk-button-large uk-button-default uk-margin-top" href="#pr__about">Learn More</a>
+              </div>
+<!--              {{ end }}-->
             </div>
           </div>
         </div>
       </div>
     </section><!-- Site Hero End -->
 
-    <section class="pr__features uk-section uk-padding-remove-bottom" id="pr_features">
-      <div class="uk-container">
-        <div class="section-inner">
-          <div class="items-listing features-boxes uk-grid uk-grid-match uk-grid-medium uk-child-width-1-3@m"
-               data-uk-grid="">
-            <div class="item feature-box uk-active">
-              <div class="inner">
-                <i class="icon pr-logo-dribbble pr__icon__large"></i>
-                <h3 class="title uk-h4">Sports.</h3>
-                <hr class="line pr__hr__secondary">
-                <p class="description">It is a long established fact that a reader will be
-                  distracted by the readable content of a page.</p>
-                <a href="#" class="link uk-position-cover"></a>
-              </div>
-            </div>
-            <div class="item feature-box">
-              <div class="inner">
-                <i class="icon pr-camera-video pr__icon__large"></i>
-                <h3 class="title uk-h4">Entertainment.</h3>
-                <hr class="line pr__hr__secondary">
-                <p class="description">There are many variations of passages of available, but the
-                  majority alteration in some form.</p>
-                <a href="#" class="link uk-position-cover"></a>
-              </div>
-            </div>
-            <div class="item feature-box">
-              <div class="inner">
-                <i class="icon pr-code pr__icon__large"></i>
-                <h3 class="title uk-h4">Technology.</h3>
-                <hr class="line pr__hr__secondary">
-                <p class="description">The generated Lorem Ipsum is therefore always free from
-                  repetition, injected humour.</p>
-                <a href="#" class="link uk-position-cover"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- Section: Features End -->
-
   </div><!-- Hero Wrap End -->
-
-  <!--            <div class="pr__content" id="site-content">-->
-  <!--              <section class="pr__services pr__section uk-section uk-section-large" id="pr__services">-->
-  <!--                <div class="section-outer">-->
-  <!--                  <div class="section-heading">-->
-  <!--                    <div class="uk-container">-->
-  <!--                      <div class="inner">-->
-  <!--                        <div class="left">-->
-  <!--                          <hr class="line pr__hr__secondary">-->
-  <!--                          <h2 class="title uk-h1">Portfolio.</h2>-->
-  <!--                          <span class="subtitle pr__heading__secondary">We work with you, Not for you</span>-->
-  <!--                        </div>-->
-  <!--                      </div>-->
-  <!--                    </div>-->
-  <!--                  </div>-->
-  <!--                <hr class="pr__vr__section">-->
-  <!--              <div class="section-inner">-->
-  <!--                <div class="uk-container">-->
-  <!--                  <div class="items-listing services-boxes uk-grid uk-grid-match uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s"-->
-  <!--                       data-uk-grid="">-->
-  <!--                    <div class="item service-box style-one">-->
-  <!--                      <div class="inner">-->
-  <!--                        <i class="overlay-icon icon pr-line-strategy"></i>-->
-  <!--                        <h5 class="title uk-h5"><img src="assets/images/logos/adage.png" alt="AdAge" height="50" width="70"></h5>-->
-  <!--                        <i class="icon pr-arrow-right"></i>-->
-  <!--                        <a href="https://adage.com/" class="link uk-position-cover"></a>-->
-  <!--                      </div>-->
-  <!--                    </div>-->
-  <!--                    <div class="item service-box style-one">-->
-  <!--                      <div class="inner">-->
-  <!--                        <i class="overlay-icon icon pr-line-browser"></i>-->
-  <!--                        <h5 class="title uk-h5">Court Grip</h5>-->
-  <!--                        <i class="icon pr-arrow-right"></i>-->
-  <!--                        <a href="#" class="link uk-position-cover"></a>-->
-  <!--                      </div>-->
-  <!--                    </div>-->
-  <!--                    <div class="item service-box style-one">-->
-  <!--                      <div class="inner">-->
-  <!--                        <i class="overlay-icon icon pr-line-presentation"></i>-->
-  <!--                        <h5 class="title uk-h5"><img src="assets/images/logos/X2.png" alt="Mission Athlete Care" height="50" width="50">&nbsp;&nbsp;&nbsp;X2 Performance</h5>-->
-  <!--                        <i class="icon pr-arrow-right"></i>-->
-  <!--                        <a href="https://x2performance.com/" class="link uk-position-cover"></a>-->
-  <!--                      </div>-->
-  <!--                    </div>-->
-  <!--                    <div class="item service-box style-one">-->
-  <!--                      <div class="inner">-->
-  <!--                        <h5 class="title uk-h5"><img src="assets/images/logos/missionathletecare.png" alt="Mission Athlete Care" height="50" width="50">&nbsp;&nbsp;&nbsp;Mission</h5>-->
-  <!--                        <i class="icon pr-arrow-right"></i>-->
-  <!--                        <a href="https://www.mission.com/" class="link uk-position-cover"></a>-->
-  <!--                      </div>-->
-  <!--                    </div>-->
-  <!--                    <div class="item service-box style-one">-->
-  <!--                      <div class="inner">-->
-  <!--                        <i class="overlay-icon icon pr-line-tools"></i>-->
-  <!--                        <h5 class="title uk-h5"><img src="assets/images/logos/playerstribune.png" alt="The Players' Tribune" height="50" width="130"></h5>-->
-  <!--                        <i class="icon pr-arrow-right"></i>-->
-  <!--                        <a href="https://www.theplayerstribune.com/en-us" class="link uk-position-cover"></a>-->
-  <!--                      </div>-->
-  <!--                    </div>-->
-  <!--                    <div class="item service-box style-one">-->
-  <!--                      <div class="inner">-->
-  <!--                        <i class="overlay-icon icon pr-line-chat"></i>-->
-  <!--                        <h5 class="title uk-h5">Bunim / Murray Productions</h5>-->
-  <!--                        <i class="icon pr-arrow-right"></i>-->
-  <!--                        <a href="https://www.bunim-murray.com/" class="link uk-position-cover"></a>-->
-  <!--                      </div>-->
-  <!--                    </div>-->
-  <!--                    <div class="item service-box style-one">-->
-  <!--                      <div class="inner">-->
-  <!--                        <i class="overlay-icon icon pr-line-target"></i>-->
-  <!--                        <h5 class="title uk-h5"><img src="assets/images/logos/Twenty.png" alt="Twenty" height="50" width="50"></h5>-->
-  <!--                        <i class="icon pr-arrow-right"></i>-->
-  <!--                        <a href="https://www.twenty.co/" class="link uk-position-cover"></a>-->
-  <!--                      </div>-->
-  <!--                    </div>-->
-  <!--                    <div class="item service-box style-one">-->
-  <!--                      <div class="inner">-->
-  <!--                        <i class="overlay-icon icon pr-line-lightbulb"></i>-->
-  <!--                        <h5 class="title uk-h5"><img src="assets/images/logos/b6a.png" alt="Block Six Analytics" height="30" width="30">&nbsp;&nbsp;&nbsp;Block Six Analytics</h5>-->
-  <!--                        <i class="icon pr-arrow-right"></i>-->
-  <!--                        <a href="https://www.blocksixanalytics.com/" class="link uk-position-cover"></a>-->
-  <!--                      </div>-->
-  <!--                    </div>-->
-  <!--                    <div class="item service-box style-one">-->
-  <!--                      <div class="inner">-->
-  <!--                        <i class="overlay-icon icon pr-line-search"></i>-->
-  <!--                        <h5 class="title uk-h5"><img src="assets/images/logos/ADU-logo-wh2.png" alt="Athletic Director U" height="50" width="50">&nbsp;&nbsp;&nbsp;Athletic Director U</h5>-->
-  <!--                        <i class="icon pr-arrow-right"></i>-->
-  <!--                        <a href="https://www.athleticdirectoru.com/" class="link uk-position-cover"></a>-->
-  <!--                      </div>-->
-  <!--                    </div>-->
-  <!--                  </div>-->
-  <!--                </div>-->
-  <!--              </div>-->
-  <!--            </div>-->
-  <!--          </section>&lt;!&ndash; Section: Portfolio End &ndash;&gt;-->
 
   <!--              <div class="pr__content" id="site-content2">-->
 
   {{ partial "portfolio.html" . }}
 
-<!--  <hr class="pr__vr__section">-->
+  <hr class="pr__vr__section">
 
-  <section class="pr__about pr__section uk-section uk-section-default" id="pr__about">
-    <div class="section-outer">
-      <div class="section-heading">
-        <div class="outer">
-          <div class="uk-container">
-            <div class="inner uk-grid" data-uk-grid="">
-              <div class="left uk-width-expand">
-                <hr class="line pr__hr__secondary">
-                <h2 class="title uk-h1">Team.</h2>
-                <span class="subtitle pr__heading__secondary">A common vision</span>
-              </div>
-              <div class="right uk-width-3-5@s">
-                <p>No Look Ventures combines years of industry experience with fresh insights to create a repeatedly
-                  proven formula for success.</p>
-              </div>
-            </div>
-          </div><!-- Container End -->
-        </div><!-- Outer End -->
-      </div><!-- Heading End -->
-      <div class="section-inner">
-        <div class="uk-container">
-          <div class="gallery-boxes pr__grd__overlay uk-grid uk-grid-match uk-grid-medium"
-               data-uk-grid="">
-            <div class="left uk-width-expand">
-              <div class="item gallery-box big">
-                <div class="outer">
-                  <div class="image pr__image__cover" data-src="assets/images/markfrench.png"
-                       data-uk-img=""></div>
-                  <div class="inner">
-                    <h3 class="title uk-h5">Mark French</h3>
-                    <p class="description">Founder</p>
-                    <a href="/about/mark-french/" class="link uk-position-cover"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="right uk-width-1-3@m">
-              <div class="item gallery-box small">
-                <div class="outer">
-                  <div class="image pr__image__cover" data-src="assets/images/about_03.jpg"
-                       data-uk-img=""></div>
-                  <div class="inner">
-                    <h3 class="title uk-h5">Philosophy</h3>
-                    <p class="description">Trust pays off</p>
-                    <a href="#" class="link uk-position-cover" data-uk-toggle=""></a>
-                  </div>
-                </div>
-              </div>
-              <div class="item gallery-box small">
-                <div class="outer">
-                  <div class="image pr__image__cover" data-src="assets/images/about_02.jpg"
-                       data-uk-img=""></div>
-                  <div class="inner">
-                    <h3 class="title uk-h5">Office</h3>
-                    <p class="description">Berlin, UK</p>
-                    <a href="#" class="link uk-position-cover" data-uk-toggle=""></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="about-boxes uk-grid uk-grid-match uk-grid-medium uk-child-width-1-3@m uk-margin-large-top"
-               data-uk-grid="">
-            <div class="item about-box">
-              <div class="outer">
-                <div class="inner">
-                  <h3 class="title uk-h5">No-Look Pass</h3>
-                  <p class="description">A pass made by the ballhandler who can see where his teammates are, and will be, and can activate a score without the competition knowing where the play is going. The passer sees the development of the play before anyone else and is two steps ahead of the game itself.</p>
-                </div>
-              </div>
-            </div>
-            <div class="item about-box">
-              <div class="outer">
-                <div class="inner">
-                  <h3 class="title uk-h5">No-Look Pass Ventures</h3>
-                  <p class="description">We prides ourselves on being a pass first organization. We would rather see our teammates (portfolio companies and their investors) score than us.</p>
-                </div>
-              </div>
-            </div>
-            <div class="item about-box">
-              <div class="outer">
-                <div class="inner">
-                  <h3 class="title uk-h5">How We Work</h3>
-                  <p class="description">We know how to maximize our strength, see the market developments before those around us, and to get the ball to our teammates to set them up for success.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div><!-- Container End -->
-      </div><!-- Inner End -->
-    </div><!-- Outer End -->
-  </section><!-- Section: Team End -->
+  {{ partial "about.html" . }}
 
-  <!--                <hr class="pr__vr__section">-->
-  <!--                <section class="pr__clients pr__section uk-section uk-section-large" id="pr__clients">-->
-  <!--                    <div class="uk-container">-->
-  <!--                        <div class="section-outer">-->
-  <!--                            <div class="uk-flex uk-flex-middle uk-grid uk-grid-large" data-uk-grid="">-->
-  <!--                                <div class="right uk-width-expand">-->
-  <!--                                    <div class="section-heading">-->
-  <!--                                        <div class="inner">-->
-  <!--                                            <div class="left">-->
-  <!--                                                <hr class="line pr__hr__secondary">-->
-  <!--                                                <h2 class="title uk-h1">What Clients Say.</h2>-->
-  <!--                                                <span class="subtitle pr__heading__secondary">From all over the world</span>-->
-  <!--                                            </div>-->
-  <!--                                        </div>-->
-  <!--                                    </div>-->
-  <!--                                    <div class="section-inner">-->
-  <!--                                        <div class="item client-box style-one">-->
-  <!--                                            <div class="outer">-->
-  <!--                                                <div class="inner">-->
-  <!--                                                    <p class="description">We are motivated by the satisfaction of our-->
-  <!--                                                        clients. Put your trust in us and share-->
-  <!--                                                        in our growth Asset Management is made up of a team of expert,-->
-  <!--                                                        committed and experienced people with a passion for-->
-  <!--                                                        financial markets. Our goal is to achieve continuous and-->
-  <!--                                                        sustainable growth of our clients.</p>-->
-  <!--                                                    <p class="client">Aron Smith, UX Designer</p>-->
-  <!--                                                </div>-->
-  <!--                                            </div>-->
-  <!--                                        </div>-->
-  <!--                                    </div>-->
-  <!--                                </div>-->
-  <!--                                <div class="left uk-width-2-5@m uk-flex-first">-->
-  <!--                                    <div class="item client-box style-one client-image">-->
-  <!--                                        <div class="image pr__image__cover pr__ratio__portrait" data-src="assets/images/client_01.jpg"-->
-  <!--                                            data-uk-img=""></div>-->
-  <!--                                    </div>-->
-  <!--                                </div>-->
-  <!--                            </div>&lt;!&ndash; Grid End &ndash;&gt;-->
-  <!--                        </div>&lt;!&ndash; Outer End &ndash;&gt;-->
-  <!--                    </div>&lt;!&ndash; Container End &ndash;&gt;-->
-  <!--                </section>&lt;!&ndash; Section: Clients End &ndash;&gt;-->
-
-<!--  <hr class="pr__vr__section">-->
+  <hr class="pr__vr__section">
 
   {{ partial "press.html" . }}
 
