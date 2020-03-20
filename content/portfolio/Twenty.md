@@ -1,5 +1,5 @@
 ---
-title: "6 - Twenty"
+title: "4 - Twenty"
 date: 2020-02-23T14:33:35-05:00
 draft: false
 image: "assets/images/logos/Twenty_Black.png"
