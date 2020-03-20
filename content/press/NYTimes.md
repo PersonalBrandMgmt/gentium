@@ -2,9 +2,9 @@
 title: "Avon Old Farms"
 date: 2020-02-23T14:33:35-05:00
 draft: false
-image: "assets/images/logos/avon.jpg"
+image: "assets/images/logos/nyt.jpg"
 series: "press"
-articleUrl: "https://www.avonoldfarms.com/cf_news/view.cfm?newsid=1053"
+articleUrl: "https://www.nytimes.com/2011/09/30/sports/basketball/miamis-wade-gets-traction-literally-on-court.html?_r=2&"
 ---
 <p class="uk-text-lead">
 Mark French has created and operated disruptive business innovations in the sports, consumer goods, media and technology industries. As the recipient of three ‘40 Under 40 Awards’ in three

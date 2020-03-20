@@ -1,10 +1,10 @@
 ---
-title: "Forbes"
+title: "Avon Old Farms"
 date: 2020-02-23T14:33:35-05:00
 draft: false
-image: "assets/images/logos/forbes.png"
+image: "assets/images/logos/fox.png"
 series: "press"
-articleUrl: "https://www.forbes.com/sites/jasonbelzer/2016/03/14/how-serial-entrepreneur-mark-french-became-the-sports-and-entertainment-industrys-biggest-disruptor/#401f707e7b47"
+articleUrl: "https://vimeo.com/87216303"
 ---
 <p class="uk-text-lead">
 Mark French has created and operated disruptive business innovations in the sports, consumer goods, media and technology industries. As the recipient of three ‘40 Under 40 Awards’ in three
