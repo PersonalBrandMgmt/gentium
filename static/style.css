@@ -1664,10 +1664,12 @@ body.single-post .hero-content {
   .pr__image__cover.pr__ratio__portrait {
     padding-top: calc(150% - 36px); }
   .pr__image__cover.pr__ratio__landscape {
-    padding-top: 56.25%; }
-  .pr__image__cover:hover {
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%); }
+    /*padding-top: 56.25%; }*/
+    padding-top: 35%;
+  }
+  /*.pr__image__cover:hover {*/
+  /*  -webkit-filter: grayscale(0%);*/
+  /*  filter: grayscale(0%); }*/
 
 .pr__dark .pr__image__cover {
   background-color: #000; }

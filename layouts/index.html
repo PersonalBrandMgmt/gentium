@@ -1,5 +1,4 @@
 {{ define "main" }}
-
 <body class="home front-page">
 
 <div id="loader" class="preloader">
@@ -51,54 +50,53 @@
             </nav>
           </div>
           <!--          <div class="navbar-tigger" data-uk-toggle="target: #navbar-mobile">-->
-<!--            <span></span>-->
-<!--            <span></span>-->
-<!--            <span></span>-->
-<!--          </div>-->
+          <!--            <span></span>-->
+          <!--            <span></span>-->
+          <!--            <span></span>-->
+          <!--          </div>-->
         </div>
       </div>
     </header><!-- Site Header End -->
 
     <section class="pr__hero uk-section" id="pr__hero">
-      <!--      <div class="uk-container">-->
       <div class="uk-container">
         <div class="section-inner">
-          <!--          <div class="hero-content uk-grid" data-uk-grid="">-->
-          <img src="assets/images/NLP-Ventures-logo.png" alt="NLP Ventures" height="200" width="1500">
           <div class="uk-width-2-3@s">
-            <!--              <hr class="line pr__hr__primary">-->
-            <!--                <div class="inner"><img src="assets/images/NLP-Ventures-logo.png" alt="NLP Ventures" height="200" width="1500"></div>-->
-            <!--              <h2 class="title uk-heading-hero">Seeing things before others.</h2>-->
-            <!--                            {{ range where .Site.Pages "Params.series" "about" }}-->
-            <!--              <div data-uk-scrollspy-nav="offset: 0; closest: li; scroll: true">-->
-            <!--                <a class="button uk-button uk-button-large uk-button-default uk-margin-top" href="#pr__about">Learn More</a>-->
-            <!--              </div>-->
-            <!--              {{ end }}-->
+            <hr class="line pr__hr__primary">
+            <h5 class="title uk-h1">Founders' Most Trusted Teammate ...<br/>Investors' Strongest Defender.</h5>
+            {{ range where .Site.Pages "Params.series" "about" }}
+            <div data-uk-scrollspy-nav="offset: 0; closest: li; scroll: true">
+              <a class="button uk-button uk-button-large uk-button-default uk-margin-top" href="#pr__about">Learn
+                More</a>
+            </div>
+            {{ end }}
           </div>
         </div>
       </div>
       <!--      </div>-->
     </section><!-- Site Hero End -->
 
-</div><!-- Hero Wrap End -->
+  </div><!-- Hero Wrap End -->
+
+  {{ partial "works.html" . }}
 
   <!--              <div class="pr__content" id="site-content2">-->
 
   {{ partial "portfolio.html" . }}
 
-<!--  <hr class="pr__vr__section">-->
+  <!--  <hr class="pr__vr__section">-->
 
   {{ partial "about.html" . }}
 
-<!--  <hr class="pr__vr__section">-->
+  <!--  <hr class="pr__vr__section">-->
 
   {{ partial "press.html" . }}
 
-<!--  <hr class="pr__vr__section">-->
+  <!--  <hr class="pr__vr__section">-->
 
 </div><!-- Site Content End -->
 
-  {{ partial "footer.html" . }}
+{{ partial "footer.html" . }}
 
 <!--</div>&lt;!&ndash; Site Wrapper End &ndash;&gt;-->
 
@@ -157,6 +155,4 @@
 <script src="assets/js/validate.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
-</html>
-
 {{ end }}

@@ -2,5 +2,42 @@
   "baseURL": "https://develop.d2pru1nc16cre5.amplifyapp.com/",
   "languageCode": "en-us",
   "title": "NLP Ventures",
-  "disableKinds": ["taxonomy", "taxonomyTerm"]
+  "disableKinds": ["taxonomy", "taxonomyTerm"],
+  "params": {
+    "featuredImages": [
+      {
+        "url": "assets/images/works/dwane.jpg"
+      },
+      {
+        "url":  "assets/images/works/mission.jpg"
+      },
+      {
+        "url": "assets/images/works/4-2.jpg"
+      },
+      {
+        "url": "assets/images/works/5-1.jpg"
+      },
+      {
+        "url":  "assets/images/works/6-1.jpg"
+      },
+      {
+        "url": "assets/images/works/8-1.jpg"
+      },
+      {
+        "url": "assets/images/works/9-1.jpg"
+      },
+      {
+        "url":  "assets/images/works/9-3.jpg"
+      },
+      {
+        "url": "assets/images/works/11-1.jpg"
+      },
+      {
+        "url": "assets/images/works/12-1.jpg"
+      },
+      {
+        "url": "assets/images/works/kplus_lo.jpg"
+      }
+    ]
+  }
 }
