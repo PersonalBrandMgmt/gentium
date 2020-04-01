@@ -3,7 +3,7 @@
        data-center="true" data-autoplay="true" data-dots="true">
     {{ range $.Site.Params.featuredImages }}
     <div class="item work-box">
-      <div class="image pr__image__cover pr__ratio__landscape" data-src="{{ .url }}" data-uk-img="{{ .url }}"></div>
+      <img src="{{ .url }}" alt="Fit Team Five"/>
     </div>
     {{ end }}
   </div>
