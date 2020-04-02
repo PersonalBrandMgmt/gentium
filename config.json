@@ -6,10 +6,10 @@
   "params": {
     "featuredImages": [
       {
-        "url": "assets/images/works/dwane.jpg"
+        "url":  "assets/images/works/theplayerstribune.jpg"
       },
       {
-        "url":  "assets/images/works/theplayerstribune.jpg"
+        "url": "assets/images/works/slider.jpg"
       },
       {
         "url": "assets/images/works/kplus_lo.jpg"
@@ -30,7 +30,7 @@
         "url": "assets/images/works/40under40.jpg"
       },
       {
-        "url": "assets/images/works/slider.jpg"
+        "url": "assets/images/works/dwane.jpg"
       }
     ]
   }
