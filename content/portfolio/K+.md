@@ -1,10 +1,10 @@
 ---
-title: "8 - Athletic Director U"
+title: "C - K+"
 date: 2020-02-23T14:33:35-05:00
 draft: false
-image: "assets/images/logos/adu.png"
+image: "assets/images/logos/K.png"
 series: "portfolio"
-articleUrl: "https://www.athleticdirectoru.com/"
+articleUrl: "https://kplusorganics.com/"
 ---
 <p class="uk-text-lead">
 Mark French has created and operated disruptive business innovations in the sports, consumer goods, media and technology industries. As the recipient of three ‘40 Under 40 Awards’ in three
