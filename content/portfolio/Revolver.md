@@ -2,7 +2,7 @@
 title: "D - Revolver"
 date: 2020-02-23T14:33:35-05:00
 draft: false
-image: "assets/images/logos/revolver.png"
+image: "assets/images/logos/RNY-Logo.png"
 series: "portfolio"
 articleUrl: "http://www.revolvernewyork.com/"
 ---

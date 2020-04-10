@@ -2,8 +2,9 @@
 title: "6 - CourtGrip"
 date: 2020-02-23T14:33:35-05:00
 draft: false
-image: "assets/images/logos/courtgr.png"
+image: "assets/images/logos/court-grip-red.png"
 series: "portfolio"
+width: "145"
 articleUrl: "https://www.mission.com/"
 ---
 <p class="uk-text-lead">
