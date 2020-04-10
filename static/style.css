@@ -228,7 +228,7 @@ strong {
   .pr__header.uk-active {
     background-color: #fafafa; }
     .pr__header.uk-active .inner {
-      height: 145px; }
+      height: 140px; }
   .pr__header.pr__dark .inner .logo .brand {
     background-position-y: -28px; }
   .pr__header.pr__dark .inner a,
@@ -2142,9 +2142,10 @@ a.uk-slidenav {
       margin: 60px 0 5px 0; } }
 
 @media (max-width: 960px) {
+  .pr__header .inner {
+    padding-top: 15px; }
 .pr__header .inner .logo {
   /*width: 90px; }*/
-  padding-top: 40px;
   width: 100px; }
 .pr__header .inner .logo .brand {
   display: inline-block;
