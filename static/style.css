@@ -228,7 +228,7 @@ strong {
   .pr__header.uk-active {
     background-color: #fafafa; }
     .pr__header.uk-active .inner {
-      height: 90px; }
+      height: 145px; }
   .pr__header.pr__dark .inner .logo .brand {
     background-position-y: -28px; }
   .pr__header.pr__dark .inner a,
@@ -1984,12 +1984,11 @@ a.uk-slidenav {
 @media (min-width: 960px) {
   /* Header */
   .pr__header {
-    height: 170px;
+    height: 150px;
     display: block; }
     .pr__header .inner {
-      height: 156px; }
+      height: 250px; }
       .pr__header .inner .logo {
-        padding-top: 100px;
         width: 300px; }
         .pr__header .inner .logo .brand {
           height: 110px; }
@@ -2047,9 +2046,9 @@ a.uk-slidenav {
         display: none; }
     .pr__header.uk-active {
       background-color: #fafafa;
-      height: 100px; }
+      height: 140px; }
       .pr__header.uk-active .inner {
-        height: 100px; }
+        height: 150px; }
     .pr__header.pr__dark .inner .logo .brand {
       background-position-y: -32px; }
   body.page-template .pr__hero__wrap .pr__header .inner .logo .brand {
